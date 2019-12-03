@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+.btns{
+    display: flex;
+    margin-top: .5rem;
+}
+a{
+    flex: 1;
+    display: inline-block;
+    height: .3333rem;
+    line-height: .3333rem;
+    color: #fff;
+    border-radius: .03333rem;
+    font-size: .2rem;
+    text-align: center;
+    margin: 0 .5rem;
+    &.red{
+        background-color: red;
+    }
+    &.blue{
+        background-color: blue;
+    }
+}
